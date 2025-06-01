@@ -9,7 +9,6 @@
 #include "../include/node.h"
 #include "../include/cfiles.h"
 
-
 int main(int argc, char *argv[])
 {
   // int size = 50;
