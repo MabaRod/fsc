@@ -15,6 +15,7 @@ I created this project as a simple C script but i decided to make it a little ea
 # How to use it.
 
 ``` ./fsc type```
+./fsc web, ccpp, py, web and node.
 
 At the type there are 4 types (each types works different).
 
