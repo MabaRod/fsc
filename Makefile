@@ -4,6 +4,12 @@ SRC_DIR = src
 OBJ_DIR = obj
 OBJ = $(OBJ_DIR)/main.o $(OBJ_DIR)/cfiles.o $(OBJ_DIR)/web.o $(OBJ_DIR)/pyBasic.o $(OBJ_DIR)/node.o
 TARGET = fsc
+MOVETO= /bin
+
+install:all
+	echo "it will require sudo"
+	sudo mv ./fsc $(MOVETO)
+
 
 all:$(TARGET)
 
